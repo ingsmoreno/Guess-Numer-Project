@@ -1,0 +1,131 @@
+@font-face {
+  font-family: gaming;
+  src: url("/src/font/gaming.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: gaming;
+  color: white;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #000000e1;
+}
+
+header {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.guessed {
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  background: white;
+  color: black;
+}
+
+.number {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-p {
+  font-size: 10px;
+}
+
+button,
+a {
+  padding: 10px;
+  font-size: 15px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-family: gaming;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 300px;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 300px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.typeNumber {
+  width: 140px;
+  padding: 15px;
+  margin-left: 50px;
+  border: 2px solid white;
+  color: white;
+  font-family: gaming;
+  font-size: 30px;
+  text-align: center;
+  background: #000000e1;
+}
+
+.check-button {
+  float: left;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.message {
+  width: 100%;
+}
+
+.highScore {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
